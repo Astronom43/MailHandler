@@ -28,7 +28,7 @@ public class MessageSender {
     }
 
 
-    @PostMapping("/message")
+    @PostMapping("/messages")
     private void send(Message pool) {
         mailSend.PutMessage(pool);
     }
